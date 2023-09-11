@@ -3,16 +3,11 @@ import "./style.css";
 
 //imagens
 import imgMenu_superior from "../../assets/img/menu_superior.png";
-import imgMenu_inferior from "../../assets/img/menu_inferior.png";
-import imgProd_segundo from "../../assets/img/Prod segundo.png";
-import imgQtd_prod_hora from "../../assets/img/Qtd_prod_hora.png";
-import imgTempo_em_min from "../../assets/img/imgTempo_em_min.png";
-import imgMeta_prop from "../../assets/img/Meta_prop.png";
 
 //rotas
 import { Link } from "react-router-dom";
 
-function CadastroUsuario() {
+function Cad_Usuario() {
 
   function mostrarMenu() {
     let menu: any = document.getElementById("menu_lateral");
@@ -321,4 +316,4 @@ function CadastroUsuario() {
     
 }
 
-export default CadastroUsuario;
+export default Cad_Usuario;

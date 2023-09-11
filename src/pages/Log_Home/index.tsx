@@ -2,17 +2,18 @@
 import "./style.css";
 
 //imagens
+/*
 import imgMenu_superior from "../../assets/img/menu_superior.png";
 import imgMenu_inferior from "../../assets/img/menu_inferior.png";
 import imgProd_segundo from "../../assets/img/prod_segundo.png";
 import imgQtd_prod_hora from "../../assets/img/qtd_prod_hora.png";
-import imgTempo_em_min from "../../assets/img/imgtempo_em_min.png";
+import imgTempo_em_min from "../../assets/img/tempo_em_min.png";
 import imgMeta_prop from "../../assets/img/meta_prop.png";
-
+*/
 //rotas
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 
-function LogHome() {
+function Log_Home() {
 
   function mostrarMenu() {
     let menu: any = document.getElementById("menu_lateral");
@@ -308,8 +309,6 @@ function LogHome() {
     </main >
 
   )
-
-
 }
 
-export default LogHome;
+export default Log_Home;
